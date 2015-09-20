@@ -6,9 +6,10 @@ body{
   h1{
     text-align: center;
     font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
-    color: #000033;
+    color: ##00002D;
   }
 
   article{
     text-indent: 50px;
+    padding-top: 10px;
   }
