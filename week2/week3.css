@@ -1,0 +1,25 @@
+body{
+  background: #ccc;
+  font-family: Helvetica;
+}
+
+.container{
+  margin: 0 auto; /*top left bottom right OR TB LR */
+  width = 700px;
+  background: #fff url('dip.jpg') no-repeat top center;
+  padding-top: 200px;
+  border-top: 10px solid #424242
+}
+
+article{
+  padding-top: 20px 40px;
+  background: #fff;
+}
+
+.recipe{
+  /*five properties here*/
+}
+
+.recipe h2{
+  /*to affect h2 inside of recipe only*/
+}
