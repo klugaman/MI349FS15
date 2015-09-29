@@ -41,10 +41,15 @@ body {
   text-decoration: none;
 }
 
+.recipe a{
+  padding-bottom: 30px;
+}
+
 .recipe h1{
   font-family: Courier;
   letter-spacing: 2px;
   text-align: center;
+  padding-top: 30px;
 }
 .recipe h2{
   letter-spacing: 2px;
@@ -54,3 +59,14 @@ body {
 .recipe p{
   line-height: 25px;
 }
+
+/*
+Pseudo classes
+LoVHAte (:link, :visited, :hover, :active)
+:first-child
+:last-child
+:nth-child(an+b/even/odd/n)
+*/
+
+/* Inline, Inline-Block and Block */
+/* Float example */
