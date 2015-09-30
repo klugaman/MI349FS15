@@ -16,40 +16,67 @@ body {
   padding: 20px 40px;
   background: #fff;
 }
-
+/*
 .recipe ul{
   list-style-type: square;
+
 }
 
 .recipe ol{
   list-style-type: upper-roman;
 }
+*/
+ol{
+  float: left;
+  width: 400px;
+  list-style-type: upper-roman;
+}
 
-.recipe a:link{
+h2{
+  clear: both;
+}
+/*
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 50%;
+  margin:0;
+}
+*/
+/*
+ul li:last-child{
+  color: red;
+}
+
+ul li:nth-child(even){
+  background: yellow;
+}
+
+a:link, a:visited{
+  color: #424242;
   text-decoration: none;
 }
 
-.recipe a:visited{
-  text-decoration: none;
-}
-
-.recipe a:hover{
+a:hover{
+  background: yellow;
+  font-size: 1.4em;
   text-decoration: underline;
 }
 
-.recipe a:active{
+a:active{
   text-decoration: none;
 }
-
-.recipe a{
-  padding-bottom: 30px;
-}
-
+*/
+/*
 .recipe h1{
   font-family: Courier;
   letter-spacing: 2px;
   text-align: center;
-  padding-top: 30px;
 }
 .recipe h2{
   letter-spacing: 2px;
@@ -59,7 +86,7 @@ body {
 .recipe p{
   line-height: 25px;
 }
-
+*/
 /*
 Pseudo classes
 LoVHAte (:link, :visited, :hover, :active)
