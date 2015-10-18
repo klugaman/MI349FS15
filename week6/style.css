@@ -1,0 +1,28 @@
+h1, h2{
+  text-align: center;
+  font-family: verdana, sans-serif;
+  font-variant: small-caps;
+}
+
+
+.wrong a:link{
+  text-decoration: none;
+  color: black;
+}
+
+.wrong a:visited{
+  color: black;
+}
+
+.right a:link{
+  text-decoration: underline;
+  color: blue;
+}
+
+.right a:visited{
+  color: green;
+}
+
+.right a:hover{
+  color: #0aa;
+}
