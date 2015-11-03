@@ -1,0 +1,29 @@
+.column{
+  margin: 0 auto;
+  background: #e3e3e3;
+  padding: 1em;
+}
+
+@media (min-width: 400px){
+  .column{
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+}
+
+@media (min-width: 800px){
+  .column{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1200px){
+  .column{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+  }
+}
