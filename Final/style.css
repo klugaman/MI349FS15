@@ -1,0 +1,155 @@
+html{
+  background-image: url("pentagon.png");
+}
+
+body{
+  background-image: url("pentagon.png");
+  margin:0 auto;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  margin: -20px;
+  margin-top: 0;
+  text-align: center;
+  color: #800000;
+}
+
+li, h2, h3, p{
+	font-family: "helvetica", sans-serif;
+}
+
+#title{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  background-color: #dcfbd2;
+  width: 830px;
+  margin: 0 auto;
+  /*border: 1px solid #800000;*/
+  border-bottom: none;
+  box-shadow: 0px 0px 20px #888888;
+}
+
+#nav li{
+	display: inline;
+  border: 1px solid #800000;
+}
+
+#nav {
+	list-style-type: none;
+  background-color: #800000;
+  padding: 6px 20px;
+  width: 792px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#nav a{
+	text-decoration: none;
+	background-color: #800000;
+  padding: 6px 20px;
+  margin-top: 30px;
+  color: #dcfbd2;
+}
+
+.dropdown-menu{
+  overflow: hidden;
+}
+
+.info-box{
+  /*border: 1px solid #800000;*/
+  padding: 15px;
+  background-color: #dcfbd2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  box-shadow: 0px 0px 20px #888888;
+}
+
+.content{
+  text-align: center;
+}
+
+iframe{
+  margin-bottom: 15px;
+}
+
+.dach-img{
+  float: right;
+  margin-top: 40px;
+}
+
+footer{
+  font-size: 11px;
+  color: #dcfbd2;
+  background-color: #800000;
+  width:832px;
+  margin: 0 auto;
+  margin-top: -12px;
+  box-shadow: 0px 0px 20px #888888;
+}
+
+footer p{
+  padding: 7px;
+}
+
+@media (max-width: 1200px){
+  footer{
+    width:832px;
+  }
+
+  .info-box{
+    width:800px;
+  }
+
+  #nav{
+    width: 792px;
+  }
+
+  #title{
+    width: 830px;
+  }
+
+}
+
+@media (max-width: 850px){
+  footer{
+    width:632px;
+  }
+
+  .info-box{
+    width:600px;
+  }
+
+  #nav{
+    width: 592px;
+  }
+
+  #title{
+    width: 630px;
+  }
+
+}
+
+@media (max-width: 400px){
+  iframe{
+    width:350px;
+    height:197px;
+  }
+  footer{
+    width:632px;
+  }
+
+  .info-box{
+    width:600px;
+  }
+
+  #nav{
+    width: 592px;
+  }
+
+  #title{
+    width: 630px;
+  }
+
+}
