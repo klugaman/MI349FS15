@@ -42,6 +42,7 @@ li, h2, h3, p{
   width: 792px;
   text-align: center;
   margin: 0 auto;
+  z-index: 100;
 }
 
 #nav a{
@@ -131,25 +132,15 @@ footer p{
 
 }
 
-@media (max-width: 400px){
-  iframe{
-    width:350px;
-    height:197px;
-  }
-  footer{
-    width:632px;
-  }
+button{
+  margin-top: -10px;
+}
+.js-date p{
+  float:right;
+  margin-top: -7px;
+}
 
-  .info-box{
-    width:600px;
-  }
-
-  #nav{
-    width: 592px;
-  }
-
-  #title{
-    width: 630px;
-  }
-
+.js-date{
+  float: right;
+  padding: 15px;
 }
